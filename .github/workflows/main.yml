@@ -1,0 +1,15 @@
+  name: Mohamed Flows
+
+  on:
+    push:
+      branches:
+        - Main
+  jobs: 
+    example-job:
+      runs-on: ubunto-latest
+
+      steps:
+          - name: print hello basha
+            run: echo "hello basha"
+    
+        
