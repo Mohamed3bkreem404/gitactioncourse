@@ -12,3 +12,6 @@ jobs:
       steps:
           - name: say hello
             run: echo "welcome basha"
+
+          - name: check repo
+            uses: actions/checkout@v4.2.2
