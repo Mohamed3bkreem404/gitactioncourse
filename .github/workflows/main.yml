@@ -15,3 +15,6 @@ jobs:
 
           - name: check repo
             uses: actions/checkout@v4.2.2
+
+          - name: List repo files
+            run: ls -la
