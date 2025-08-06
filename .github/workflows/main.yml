@@ -5,13 +5,11 @@ on:
       branches:
         - main
         # this mean trigger will work on any  branche that starts with release
-        - "release/**"
       paths:
         - "src/**"
   pull_request:
       branches:
       - main
-      - "release/**"
       paths:
         - "src/**"
 
