@@ -1,0 +1,24 @@
+name: hoho
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ego de swain (print)
+        run: echo "ego de swain"
+
+
+        
+      - name: checkRepo
+        uses: actions/checkout@v4.2.2
+
+      - name: list repo files
+        run: ls -la
+        
+
