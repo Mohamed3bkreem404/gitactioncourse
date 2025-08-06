@@ -6,5 +6,6 @@ public class test {
             System.out.println("YEllo world");
             System.out.println("Absloute cinema");
             System.out.println("Absloute cinema for the second time");
+            System.out.println("Absloute cinema for the second time");
     }
 }
