@@ -10,7 +10,7 @@ on:
         - "src/**"
   pull_request:
       branches:
-      - maina
+      - main
       - "release/**"
       paths:
         - "src/**"

@@ -3,9 +3,9 @@ package gitactioncourse.src;
 public class test {
     
     public static void main(String[] args) {
-            System.out.println("YEllo world");
-            System.out.println("Absloute cinema");
-            System.out.println("Absloute cinema for the second time");
-            System.out.println("Absloute cinema for the second time");
+            int x = 5 , y =10;
+
+            System.out.println(x+y);
+            System.out.println(x+y);
     }
 }
