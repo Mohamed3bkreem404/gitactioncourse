@@ -6,5 +6,6 @@ public class test {
             int x = 5 , y =10;
 
             System.out.println(x+y);
+            System.out.println(x+y);
     }
 }
