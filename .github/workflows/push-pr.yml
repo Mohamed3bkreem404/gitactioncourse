@@ -3,14 +3,15 @@ name: hoho
 on:
   push:
       branches:
-        - main
+        - test
         # this mean trigger will work on any  branche that starts with release
         - "release/**"
       paths:
+        - test
         - "src/**"
   pull_request:
       branches:
-      - maina
+      - testa
       - "release/**"
       paths:
         - "src/**"
