@@ -2,23 +2,29 @@ name: hoho
 
 on:
   push:
-    branches:
+      branches:
+        - main
+        # this mean trigger will work on any  branche that starts with release
+        - "release/**"
+      paths:
+        - "src/**"
+  pull_request:
+      branches:
       - main
+      - "release/**"
+      paths:
+        - "src/**"
 
 jobs:
-  example-job:
+  welcome-message:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ego de swain (print)
-        run: echo "ego de swain"
+      - name: say welcome job
+        run: echo "hey welcome job :3"
 
-
-        
-      - name: checkRepo
+      - name: checkout code
         uses: actions/checkout@v4.2.2
-
-      - name: list repo files
-        run: ls -la
-        
-
+      
+      - name: run tests
+        run: npm tests  
