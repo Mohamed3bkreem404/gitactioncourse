@@ -1,20 +1,14 @@
-name: MoFlow
+name: hoho
 
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
-   example-job:
-      runs-on: ubuntu-latest
-     
-      steps:
-          - name: say hello
-            run: echo "welcome basha"
+  example-job:
+    runs-on: ubuntu-latest
 
-          - name: check repo
-            uses: actions/checkout@v4.2.2
-
-          - name: List repo files
-            run: ls -la
+    steps:
+      - name: ego de swain (print)
+        run: echo "ego de swain"
